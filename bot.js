@@ -419,7 +419,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-if(message.content.startsWith("$slots")) {
+if(message.content.startsWith("$حظ")) {
   let slot1 = ['🍏', '🍇', '🍒', '🍍', '🍅', '🍆', '🍑', '🍓'];
   let slots1 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
   let slots2 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
