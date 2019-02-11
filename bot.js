@@ -402,7 +402,7 @@ client.on('message', message => {
             var r = message.channel.awaitMessages(msg => msg.content == x2[x3], {
                thing: true,
                maxMatches : 1,
-                time : 30000,
+                time : 7000,
                  maxUses: 1,
                 errors : ['time']
             })
