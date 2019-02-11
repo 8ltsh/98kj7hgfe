@@ -496,3 +496,20 @@ const pubg = [
 
 
 client.login(process.env.BOT_TOKEN);
+
+
+client.on('message', message => { ///////// ALPHA  , Codes ///// Galal
+    if (message.content.startsWith("help")) { ///////// ALPHA  , Codes ///// Galal
+
+message.author.send(` 
+**__الاوامــر الاداريــه__** 🔐 
+**
+${prefix}setwelcomer | يثبت لك الترحيب بالروم الى تبيها بس حط اسمها
+${prefix}setleave | يسوى لك رساله لما شخص يطلع من السيرفر بس حط اسم الروم 
+
+**
+`) ///////// ALPHA , Codes ///// Galal
+
+
+    }
+}); ///////// ALPHA , Codes ///// Galal
